@@ -1,0 +1,594 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    height: 68%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+body {
+    height: 100%;
+}
+
+.nav_logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("Images/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+    cursor: pointer;
+
+}
+
+/*************box 2*************/
+.first_addr {
+    font-weight: 700;
+    color: #CCCCCC;
+}
+
+.second_addr {
+    color: #ffff;
+}
+
+.locaton_icon {
+    display: flex;
+    align-items: center;
+}
+
+/*****************box-3***************/
+
+.search_bar {
+    display: flex;
+    background-color: red;
+    width: 620px;
+    height: 40px;
+    cursor: pointer;
+
+}
+
+.search_input {
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 5px;
+    outline: none;
+}
+
+#options {
+    width: 90px;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+}
+
+.search_icon {
+    width: 60px;
+    background-color: rgb(220, 166, 3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+
+}
+
+.Account_list {
+    background-color: #0000;
+    color: #ffff;
+    border: none;
+    outline: none;
+    font-weight: 950;
+}
+
+.card_icon i {
+
+    font-size: 1.7rem;
+
+
+}
+
+/***************************************************************************Next section*********************************************************/
+
+.shoping_panel {
+
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #ffff;
+    height: 60px;
+    cursor: pointer;
+}
+
+.all i {
+    display: inline;
+
+}
+
+
+.panel_opation a,
+.panal_dels a {
+    color: #ffff;
+    text-decoration: none;
+    margin: 5px;
+}
+
+
+/***************************************************************************Hero section*********************************************************/
+.Hreo_section {
+    background-image: url("Images/hero_image.jpg");
+    background-size: cover;
+    height: 400px;
+    position: relative;
+
+}
+
+.Hreo_section p {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    position: absolute;
+    bottom: 25px;
+    margin: 0rem 1.3rem;
+    height: 45px;
+}
+
+.Hreo_section a {
+    text-decoration: none;
+    color: #007185;
+}
+
+/************************************Shoping_Cards***************************************/
+
+.shoping_card {
+    background-color: #CCCCCC;
+    height: 1200px;
+    display: flex;
+}
+
+.card {
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.Shoping_card_panal {
+
+    width: 350px;
+    height: 350px;
+    background-color: #ffff;
+}
+
+.Shoping_card_panal h3 {
+    padding: 1px 25px;
+ 
+}
+
+.aa {
+    padding: 1px 25px;
+
+}
+
+.aa a {
+    text-decoration: none;
+    color: #007185;
+}
+
+
+
+
+.Shoping_card_panal img {
+    width: 350px;
+    height: 300px;
+    padding: 16px;
+}
+
+/*********************************Scroll_bar**********************************/
+.scroll_bar {
+    background-color: #CCCCCC;
+    height: 100%;
+}
+
+.scroll_bar h2 {
+    width: 98%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 5px 20px;
+     
+}
+
+.scroll_bar a {
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: none;
+    color: #007185;
+}
+
+.scroll_first {
+    height: 300px;
+    background-color: white;
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.scroll_bar_card img {
+    width: 223px;
+    height: 223px;
+    background-color: rgb(246, 243, 243);
+    padding: 15px 45px;
+    border-radius: 4px;
+}
+
+.aa span,
+p {
+    font-size: 14px;
+    margin-left: -15px;
+    margin-top: 5px;
+    color: #373839;
+
+}
+
+.aa b {
+    background-color: red;
+    padding: 3px;
+    color: #ffff;
+}
+
+.aa span {
+    color: red;
+}
+
+.seconed_shoping_card {
+    height: 100%;
+}
+
+.scroll_4_card {
+    display: flex;
+
+    gap: 13px;
+    padding: 5px 15px;
+}
+
+.cycle_box {
+    width: 100%;
+    background-color: #ffff;
+    height: 270px;
+
+}
+
+.cycle_box img {
+    width: 200px;
+    height: 250px;
+    background-color: #d81212;
+}
+
+/*******************************************Sigh_in_part***************************************************/
+.sign_in {
+    height: 200px;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.sign_part {
+
+    width: 100%;
+    height: 150px;
+    border: 2px solid rgb(199, 182, 182);
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.sign_in a {
+    color: black;
+    font-size: 17px;
+
+}
+
+.sign_in .link {
+    color: #007185;
+}
+
+button {
+    margin: 3px auto;
+    width: 250px;
+    padding: 5px 18px;
+    background-color: rgb(217, 179, 54);
+    border: none;
+    border-radius: 4px;
+    font-weight: 750;
+    cursor: pointer;
+}
+
+.Back_top {
+    margin-top: 15px;
+    height: 3rem;
+    background-color: #334255;
+}
+
+.Back_top p {
+    width: 100px;
+    margin: 0 auto;
+    padding: 15px 10px;
+    color: white;
+}
+
+/*****************************************************************************Start_Footer_here********************************************/
+.footer_panal {
+    color: white;
+    height: 100%;
+    background-color: #212c38;
+
+}
+
+.footer_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.footer_name {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.footer_name a {
+    text-decoration: none;
+    color: #DDDDDD;
+    font-size: 14px;
+
+}
+
+.footer_panal .country {
+    text-align: center;
+    margin: 0 auto;
+    border-top: 1px solid #e3dede;
+}
+
+.logo_golble {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo_golble select {
+    border: none;
+    outline: none;
+    padding: 8px 15px;
+    background-color: #212c38;
+    border: 1px solid white;
+    color: white;
+    margin-bottom: 10px;
+
+}
+
+.country a {
+    text-decoration: none;
+    color: #DDDDDD;
+    font-size: 13px;
+    padding: 5px;
+
+}
+
+.footer_last {
+
+    height: 350px;
+    background-color: #131A22;
+    margin: 0px auto;
+
+}
+
+.footer_last_list {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.footer_last_name {
+
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+h5 {
+    color: white;
+}
+
+.footer_last_name span {
+    bottom: -10px;
+    font-size: 12px;
+    padding: 15px;
+    color: #e6dfdf;
+
+}
+
+/********************************************************************Create_Name_*********************************************/
+.name {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 atuo;
+    color: white;
+    background-color: #334255;
+    height: 13vh;
+}
+
+.name span {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+
+@media screen and (min-width:320px) and (max-width:900px) {
+
+    .search_bar {
+        margin-right: -50px;
+        height: 25px;
+        font-size: 9px;
+    }
+
+    .search_input {
+        font-size: 9px;
+        font-weight: 600;
+    }
+
+    .first_addr,
+    .locaton_icon,
+    .Account_section,
+    .Account_list,
+    .Returns,
+    .card_icon>span {
+        visibility: hidden;
+
+    }
+
+    .nav_logo {
+        width: 150px;
+    }
+
+    .logo {
+        margin-top: 15px;
+        margin-left: 15px;
+        width: 45px;
+        height: 25px;
+    }
+
+    .card_icon i {
+        width: 50px;
+        font-size: 1.7rem;
+        margin-right: 15px;
+
+    }
+
+    .shoping_panel {
+        display: none;
+    }
+
+
+    .Hreo_section {
+        height: 200px;
+        background-position: center;
+
+    }
+
+    .Hreo_section>p {
+        display: block;
+        margin-left: 5px;
+        height: 5vh;
+        font-size: 9px;
+        padding: 5px;
+        text-align: center;
+
+    }
+
+    .card {
+        gap: 5rem;
+
+    }
+
+    .card img {
+        margin-left: -13px;
+    }
+
+    .scroll_bar {
+        padding: 2vh;
+
+    }
+
+    .scroll_first {
+        height: 100%;
+        border: 1px solid rgb(241, 238, 238);
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .cycle_box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .footer_list {
+        gap: 10px;
+
+    }
+
+    .footer_name a {
+        font-size: 9px;
+    }
+
+
+    .footer_last {
+        height: 200px;
+    }
+
+    .footer_last_name span {
+        padding: 5px;
+        font-size: 8px;
+    }
+
+    .name {
+
+        font-size: 9px;
+    }
+
+}
+
+@media screen and (min-width:500px) and (max-width:900px) {
+
+
+    .shoping_panel {
+        display: none;
+    }
+
+
+    .Hreo_section {
+        height: 300px;
+        background-position: center;
+
+    }
+}
